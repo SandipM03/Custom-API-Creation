@@ -2276,4 +2276,61 @@ const coordinates={
         },
       },
 
+      Portugal: {
+        latitude: 39.3999,
+        longitude: -8.2245,
+        subDistricts: {
+          Norte: {
+            latitude: 41.5,
+            longitude: -8.5,
+            subDistricts: {
+              Porto: { latitude: 41.1496, longitude: -8.6109 },
+              Braga: { latitude: 41.5503, longitude: -8.4265 },
+              VianaDoCastelo: { latitude: 41.6941, longitude: -8.838 },
+              VilaReal: { latitude: 41.3, longitude: -7.74 },
+              Aveiro: { latitude: 40.6401, longitude: -8.6455 },
+            },
+          },
+          Centro: {
+            latitude: 40.0,
+            longitude: -8.0,
+            subDistricts: {
+              Coimbra: { latitude: 40.2033, longitude: -8.4103 },
+              Leiria: { latitude: 39.7431, longitude: -8.807 },
+              CasteloBranco: { latitude: 39.46, longitude: -6.2 },
+              Guarda: { latitude: 40.5375, longitude: -7.27 },
+              Viseu: { latitude: 40.6613, longitude: -7.91 },
+            },
+          },
+          Lisboa: {
+            latitude: 38.7223,
+            longitude: -9.1393,
+            subDistricts: {
+              Lisbon: { latitude: 38.7223, longitude: -9.1393 },
+              Setúbal: { latitude: 38.5244, longitude: -8.8909 },
+              Cascais: { latitude: 38.697, longitude: -9.4218 },
+              Sintra: { latitude: 38.8029, longitude: -9.3817 },
+            },
+          },
+          Alentejo: {
+            latitude: 38.5,
+            longitude: -7.0,
+            subDistricts: {
+              Évora: { latitude: 38.5729, longitude: -7.9137 },
+              Beja: { latitude: 38.015, longitude: -7.861 },
+              Portalegre: { latitude: 39.2922, longitude: -7.429 },
+            },
+          },
+          Algarve: {
+            latitude: 37.0174,
+            longitude: -7.9307,
+            subDistricts: {
+              Faro: { latitude: 37.0194, longitude: -7.9304 },
+              Lagos: { latitude: 37.102, longitude: -8.676 },
+              Portimão: { latitude: 37.1392, longitude: -8.5376 },
+            },
+          },
+        },
+      },
+
 }
