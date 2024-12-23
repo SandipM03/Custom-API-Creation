@@ -1246,6 +1246,157 @@ const coordinates={
           },
         },
       },
-
+      Germany: {
+        latitude: 51.1657,
+        longitude: 10.4515,
+        subDistricts: {
+          BadenWurttemberg: {
+            latitude: 48.6616,
+            longitude: 9.3501,
+            subDistricts: {
+              Stuttgart: { latitude: 48.7758, longitude: 9.1829 },
+              Karlsruhe: { latitude: 49.0069, longitude: 8.4037 },
+              Mannheim: { latitude: 49.4875, longitude: 8.466 },
+              Freiburg: { latitude: 47.999, longitude: 7.8421 },
+            },
+          },
+          Bavaria: {
+            latitude: 48.7904,
+            longitude: 11.4979,
+            subDistricts: {
+              Munich: { latitude: 48.1351, longitude: 11.582 },
+              Nuremberg: { latitude: 49.4521, longitude: 11.0767 },
+              Augsburg: { latitude: 48.3705, longitude: 10.8978 },
+              Regensburg: { latitude: 49.0134, longitude: 12.1016 },
+            },
+          },
+          Berlin: {
+            latitude: 52.52,
+            longitude: 13.405,
+            subDistricts: {
+              Mitte: { latitude: 52.5244, longitude: 13.4105 },
+              Charlottenburg: { latitude: 52.5157, longitude: 13.3054 },
+              Kreuzberg: { latitude: 52.4977, longitude: 13.4174 },
+              Spandau: { latitude: 52.5344, longitude: 13.2 },
+            },
+          },
+          Brandenburg: {
+            latitude: 52.4125,
+            longitude: 12.5316,
+            subDistricts: {
+              Potsdam: { latitude: 52.3906, longitude: 13.0645 },
+              Cottbus: { latitude: 51.7567, longitude: 14.334 },
+              Frankfurt_Oder: { latitude: 52.3412, longitude: 14.55 },
+            },
+          },
+          Bremen: {
+            latitude: 53.0793,
+            longitude: 8.8017,
+            subDistricts: {
+              Bremen_City: { latitude: 53.0793, longitude: 8.8017 },
+              Bremerhaven: { latitude: 53.5395, longitude: 8.5809 },
+            },
+          },
+          Hamburg: {
+            latitude: 53.5511,
+            longitude: 9.9937,
+            subDistricts: {
+              Hamburg_Mitte: { latitude: 53.551, longitude: 10.0045 },
+              Altona: { latitude: 53.551, longitude: 9.937 },
+              Bergedorf: { latitude: 53.4869, longitude: 10.2279 },
+            },
+          },
+          Hesse: {
+            latitude: 50.6521,
+            longitude: 9.1624,
+            subDistricts: {
+              Frankfurt: { latitude: 50.1109, longitude: 8.6821 },
+              Wiesbaden: { latitude: 50.0782, longitude: 8.2398 },
+              Kassel: { latitude: 51.3127, longitude: 9.4797 },
+            },
+          },
+          MecklenburgVorpommern: {
+            latitude: 53.6127,
+            longitude: 12.4297,
+            subDistricts: {
+              Schwerin: { latitude: 53.6355, longitude: 11.4012 },
+              Rostock: { latitude: 54.0924, longitude: 12.0991 },
+              Stralsund: { latitude: 54.315, longitude: 13.0916 },
+            },
+          },
+          LowerSaxony: {
+            latitude: 52.6367,
+            longitude: 9.8451,
+            subDistricts: {
+              Hannover: { latitude: 52.3759, longitude: 9.732 },
+              Braunschweig: { latitude: 52.2689, longitude: 10.5267 },
+              Oldenburg: { latitude: 53.1434, longitude: 8.2146 },
+            },
+          },
+          NorthRhineWestphalia: {
+            latitude: 51.4332,
+            longitude: 7.6616,
+            subDistricts: {
+              Dusseldorf: { latitude: 51.2277, longitude: 6.7735 },
+              Cologne: { latitude: 50.9375, longitude: 6.9603 },
+              Dortmund: { latitude: 51.5136, longitude: 7.4653 },
+              Essen: { latitude: 51.4556, longitude: 7.0116 },
+            },
+          },
+          RhinelandPalatinate: {
+            latitude: 49.9129,
+            longitude: 7.4497,
+            subDistricts: {
+              Mainz: { latitude: 49.9929, longitude: 8.2473 },
+              Ludwigshafen: { latitude: 49.4741, longitude: 8.4349 },
+              Koblenz: { latitude: 50.3569, longitude: 7.594 },
+            },
+          },
+          Saarland: {
+            latitude: 49.3964,
+            longitude: 7.023,
+            subDistricts: {
+              Saarbrucken: { latitude: 49.2371, longitude: 6.9959 },
+              Neunkirchen: { latitude: 49.35, longitude: 7.1833 },
+            },
+          },
+          Saxony: {
+            latitude: 51.1045,
+            longitude: 13.2017,
+            subDistricts: {
+              Dresden: { latitude: 51.0504, longitude: 13.7373 },
+              Leipzig: { latitude: 51.3397, longitude: 12.3731 },
+              Chemnitz: { latitude: 50.8278, longitude: 12.9242 },
+            },
+          },
+          SaxonyAnhalt: {
+            latitude: 51.9503,
+            longitude: 11.6923,
+            subDistricts: {
+              Magdeburg: { latitude: 52.1205, longitude: 11.6276 },
+              Halle: { latitude: 51.4969, longitude: 11.9688 },
+              Dessau: { latitude: 51.8364, longitude: 12.2469 },
+            },
+          },
+          SchleswigHolstein: {
+            latitude: 54.2194,
+            longitude: 9.6961,
+            subDistricts: {
+              Kiel: { latitude: 54.3233, longitude: 10.1228 },
+              Lubeck: { latitude: 53.8654, longitude: 10.6866 },
+              Flensburg: { latitude: 54.7837, longitude: 9.436 },
+            },
+          },
+          Thuringia: {
+            latitude: 50.8614,
+            longitude: 11.0522,
+            subDistricts: {
+              Erfurt: { latitude: 50.9848, longitude: 11.0299 },
+              Jena: { latitude: 50.9272, longitude: 11.5892 },
+              Gera: { latitude: 50.8806, longitude: 12.0826 },
+            },
+          },
+        },
+      },
 
 }
