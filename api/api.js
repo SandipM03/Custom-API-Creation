@@ -2114,5 +2114,120 @@ const coordinates={
           },
         },
       },
+      Netherlands: {
+        latitude: 52.3784,
+        longitude: 4.9009,
+        subDistricts: {
+          Drenthe: {
+            latitude: 52.8,
+            longitude: 6.6,
+            subDistricts: {
+              Assen: { latitude: 52.9955, longitude: 6.5665 },
+              Emmen: { latitude: 52.7833, longitude: 6.895 },
+              Hoogeveen: { latitude: 52.71, longitude: 6.482 },
+            },
+          },
+          Flevoland: {
+            latitude: 52.5,
+            longitude: 5.5,
+            subDistricts: {
+              Lelystad: { latitude: 52.515, longitude: 5.487 },
+              Almere: { latitude: 52.3702, longitude: 5.215 },
+              Zeewolde: { latitude: 52.36, longitude: 5.586 },
+            },
+          },
+          Friesland: {
+            latitude: 53.0,
+            longitude: 5.5,
+            subDistricts: {
+              Leeuwarden: { latitude: 53.201, longitude: 5.79 },
+              Sneek: { latitude: 53.025, longitude: 5.653 },
+              Drachten: { latitude: 53.1, longitude: 6.09 },
+            },
+          },
+          Gelderland: {
+            latitude: 52.0,
+            longitude: 5.5,
+            subDistricts: {
+              Arnhem: { latitude: 51.9851, longitude: 5.8987 },
+              Nijmegen: { latitude: 51.842, longitude: 5.852 },
+              Apeldoorn: { latitude: 52.2112, longitude: 5.969 },
+            },
+          },
+          Groningen: {
+            latitude: 53.2,
+            longitude: 6.5,
+            subDistricts: {
+              Groningen: { latitude: 53.2194, longitude: 6.5665 },
+              Delfzijl: { latitude: 53.364, longitude: 6.895 },
+              Hoogezand: { latitude: 53.1667, longitude: 6.7 },
+            },
+          },
+          Limburg: {
+            latitude: 51.0,
+            longitude: 5.5,
+            subDistricts: {
+              Maastricht: { latitude: 50.8514, longitude: 5.69 },
+              Heerlen: { latitude: 50.888, longitude: 5.975 },
+              Venlo: { latitude: 51.37, longitude: 6.169 },
+            },
+          },
+          NorthBrabant: {
+            latitude: 51.5,
+            longitude: 5.5,
+            subDistricts: {
+              s_Hertogenbosch: { latitude: 51.6862, longitude: 5.3037 },
+              Eindhoven: { latitude: 51.4416, longitude: 5.4697 },
+              Tilburg: { latitude: 51.555, longitude: 5.091 },
+            },
+          },
+          NorthHolland: {
+            latitude: 52.5,
+            longitude: 4.5,
+            subDistricts: {
+              Amsterdam: { latitude: 52.3676, longitude: 4.9041 },
+              Haarlem: { latitude: 52.3874, longitude: 4.6369 },
+              Alkmaar: { latitude: 52.63, longitude: 4.75 },
+            },
+          },
+          Overijssel: {
+            latitude: 52.5,
+            longitude: 6.0,
+            subDistricts: {
+              Zwolle: { latitude: 52.5167, longitude: 6.0833 },
+              Enschede: { latitude: 52.2215, longitude: 6.8937 },
+              Almelo: { latitude: 52.35, longitude: 6.6667 },
+            },
+          },
+          SouthHolland: {
+            latitude: 52.0,
+            longitude: 4.5,
+            subDistricts: {
+              Rotterdam: { latitude: 51.9225, longitude: 4.4798 },
+              TheHague: { latitude: 52.0705, longitude: 4.3007 },
+              Leiden: { latitude: 52.1582, longitude: 4.4931 },
+            },
+          },
+          Utrecht: {
+            latitude: 52.1,
+            longitude: 5.1,
+            subDistricts: {
+              Utrecht: { latitude: 52.0907, longitude: 5.1214 },
+              Amersfoort: { latitude: 52.1561, longitude: 5.3878 },
+              Veenendaal: { latitude: 52.034, longitude: 5.558 },
+            },
+          },
+          Zeeland: {
+            latitude: 51.5,
+            longitude: 3.5,
+            subDistricts: {
+              Middelburg: { latitude: 51.496, longitude: 3.614 },
+              Vlissingen: { latitude: 51.444, longitude: 3.61 },
+              Terneuzen: { latitude: 51.3333, longitude: 3.8333 },
+            },
+          },
+        },
+      },
+
 
 }
