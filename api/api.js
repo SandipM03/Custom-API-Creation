@@ -1398,5 +1398,185 @@ const coordinates={
           },
         },
       },
+      Italy: {
+        latitude: 41.8719,
+        longitude: 12.5674,
+        subDistricts: {
+          Abruzzo: {
+            latitude: 42.3504,
+            longitude: 13.3995,
+            subDistricts: {
+              LAquila: { latitude: 42.3498, longitude: 13.3995 },
+              Pescara: { latitude: 42.4617, longitude: 14.216 },
+              Chieti: { latitude: 42.3512, longitude: 14.167 },
+            },
+          },
+          Basilicata: {
+            latitude: 40.6333,
+            longitude: 15.8,
+            subDistricts: {
+              Potenza: { latitude: 40.6404, longitude: 15.8056 },
+              Matera: { latitude: 40.6667, longitude: 16.6 },
+            },
+          },
+          Calabria: {
+            latitude: 38.9,
+            longitude: 16.3,
+            subDistricts: {
+              Catanzaro: { latitude: 38.9097, longitude: 16.5877 },
+              ReggioCalabria: { latitude: 38.1147, longitude: 15.649 },
+              Cosenza: { latitude: 39.2974, longitude: 16.2539 },
+            },
+          },
+          Campania: {
+            latitude: 40.8333,
+            longitude: 14.25,
+            subDistricts: {
+              Naples: { latitude: 40.8518, longitude: 14.2681 },
+              Salerno: { latitude: 40.6824, longitude: 14.768 },
+              Caserta: { latitude: 41.0733, longitude: 14.3267 },
+            },
+          },
+          EmiliaRomagna: {
+            latitude: 44.5,
+            longitude: 11.0,
+            subDistricts: {
+              Bologna: { latitude: 44.4949, longitude: 11.3426 },
+              Modena: { latitude: 44.6471, longitude: 10.9252 },
+              Parma: { latitude: 44.8015, longitude: 10.3279 },
+            },
+          },
+          FriuliVeneziaGiulia: {
+            latitude: 46.0667,
+            longitude: 13.2333,
+            subDistricts: {
+              Trieste: { latitude: 45.6495, longitude: 13.7768 },
+              Udine: { latitude: 46.0711, longitude: 13.2346 },
+              Pordenone: { latitude: 45.9563, longitude: 12.6574 },
+            },
+          },
+          Lazio: {
+            latitude: 41.9,
+            longitude: 12.7,
+            subDistricts: {
+              Rome: { latitude: 41.9028, longitude: 12.4964 },
+              Latina: { latitude: 41.4675, longitude: 12.9039 },
+              Viterbo: { latitude: 42.4207, longitude: 12.1056 },
+            },
+          },
+          Liguria: {
+            latitude: 44.4167,
+            longitude: 8.95,
+            subDistricts: {
+              Genoa: { latitude: 44.4056, longitude: 8.9463 },
+              LaSpezia: { latitude: 44.1024, longitude: 9.8244 },
+              Savona: { latitude: 44.3073, longitude: 8.4815 },
+            },
+          },
+          Lombardy: {
+            latitude: 45.4667,
+            longitude: 9.19,
+            subDistricts: {
+              Milan: { latitude: 45.4642, longitude: 9.19 },
+              Bergamo: { latitude: 45.6983, longitude: 9.6773 },
+              Brescia: { latitude: 45.5416, longitude: 10.2118 },
+            },
+          },
+          Marche: {
+            latitude: 43.6167,
+            longitude: 13.5167,
+            subDistricts: {
+              Ancona: { latitude: 43.6158, longitude: 13.5189 },
+              Pesaro: { latitude: 43.9098, longitude: 12.9131 },
+              Macerata: { latitude: 43.2988, longitude: 13.4534 },
+            },
+          },
+          Molise: {
+            latitude: 41.6833,
+            longitude: 14.75,
+            subDistricts: {
+              Campobasso: { latitude: 41.5603, longitude: 14.6626 },
+              Isernia: { latitude: 41.5936, longitude: 14.2333 },
+            },
+          },
+          Piedmont: {
+            latitude: 45.0667,
+            longitude: 7.7,
+            subDistricts: {
+              Turin: { latitude: 45.0703, longitude: 7.6869 },
+              Novara: { latitude: 45.4467, longitude: 8.6214 },
+              Alessandria: { latitude: 44.9127, longitude: 8.6152 },
+            },
+          },
+          Puglia: {
+            latitude: 41.0,
+            longitude: 16.5,
+            subDistricts: {
+              Bari: { latitude: 41.1171, longitude: 16.8719 },
+              Taranto: { latitude: 40.4647, longitude: 17.2469 },
+              Lecce: { latitude: 40.3516, longitude: 18.1718 },
+            },
+          },
+          Sardinia: {
+            latitude: 40.0,
+            longitude: 9.0,
+            subDistricts: {
+              Cagliari: { latitude: 39.2238, longitude: 9.1217 },
+              Sassari: { latitude: 40.7259, longitude: 8.5556 },
+              Nuoro: { latitude: 40.3214, longitude: 9.3289 },
+            },
+          },
+          Sicily: {
+            latitude: 37.5,
+            longitude: 14.0,
+            subDistricts: {
+              Palermo: { latitude: 38.1157, longitude: 13.3615 },
+              Catania: { latitude: 37.5079, longitude: 15.083 },
+              Messina: { latitude: 38.1938, longitude: 15.554 },
+            },
+          },
+          Tuscany: {
+            latitude: 43.7711,
+            longitude: 11.2486,
+            subDistricts: {
+              Florence: { latitude: 43.7696, longitude: 11.2558 },
+              Pisa: { latitude: 43.7228, longitude: 10.4017 },
+              Siena: { latitude: 43.3188, longitude: 11.3308 },
+            },
+          },
+          TrentinoAltoAdige: {
+            latitude: 46.0667,
+            longitude: 11.1167,
+            subDistricts: {
+              Trento: { latitude: 46.0748, longitude: 11.1217 },
+              Bolzano: { latitude: 46.4983, longitude: 11.3548 },
+            },
+          },
+          Umbria: {
+            latitude: 43.1,
+            longitude: 12.39,
+            subDistricts: {
+              Perugia: { latitude: 43.1107, longitude: 12.3908 },
+              Terni: { latitude: 42.5675, longitude: 12.6461 },
+            },
+          },
+          ValleDAosta: {
+            latitude: 45.7367,
+            longitude: 7.32,
+            subDistricts: {
+              Aosta: { latitude: 45.7371, longitude: 7.3199 },
+            },
+          },
+          Veneto: {
+            latitude: 45.4375,
+            longitude: 12.3358,
+            subDistricts: {
+              Venice: { latitude: 45.4408, longitude: 12.3155 },
+              Verona: { latitude: 45.4384, longitude: 10.9917 },
+              Padua: { latitude: 45.4064, longitude: 11.8768 },
+            },
+          },
+        },
+      },
 
 }
