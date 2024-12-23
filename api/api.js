@@ -2724,6 +2724,155 @@ const coordinates={
           },
         },
       },
+      Norway: {
+        latitude: 60.472,
+        longitude: 8.4689,
+        subDistricts: {
+          Oslo: {
+            latitude: 59.9139,
+            longitude: 10.7522,
+            subDistricts: {
+              Oslo: { latitude: 59.9139, longitude: 10.7522 },
+            },
+          },
+          Akershus: {
+            latitude: 60.0,
+            longitude: 11.0,
+            subDistricts: {
+              Bærum: { latitude: 59.95, longitude: 10.5 },
+              Lillestrøm: { latitude: 59.956, longitude: 11.0 },
+            },
+          },
+          Østfold: {
+            latitude: 59.3,
+            longitude: 11.0,
+            subDistricts: {
+              Fredrikstad: { latitude: 59.208, longitude: 10.928 },
+              Sarpsborg: { latitude: 59.2833, longitude: 11.1 },
+            },
+          },
+          Hedmark: {
+            latitude: 60.0,
+            longitude: 12.0,
+            subDistricts: {
+              Hamar: { latitude: 60.7942, longitude: 11.068 },
+              Elverum: { latitude: 60.8833, longitude: 11.5833 },
+            },
+          },
+          Oppland: {
+            latitude: 61.0,
+            longitude: 9.0,
+            subDistricts: {
+              Lillehammer: { latitude: 61.135, longitude: 10.458 },
+              Gjøvik: { latitude: 60.795, longitude: 10.688 },
+            },
+          },
+          Buskerud: {
+            latitude: 60.0,
+            longitude: 9.5,
+            subDistricts: {
+              Drammen: { latitude: 59.743, longitude: 10.2045 },
+              Kongsberg: { latitude: 59.659, longitude: 9.65 },
+            },
+          },
+          Vestfold: {
+            latitude: 59.3,
+            longitude: 10.0,
+            subDistricts: {
+              Tønsberg: { latitude: 59.267, longitude: 10.407 },
+              Sandefjord: { latitude: 59.13, longitude: 10.216 },
+            },
+          },
+          Telemark: {
+            latitude: 59.0,
+            longitude: 8.5,
+            subDistricts: {
+              Skien: { latitude: 59.209, longitude: 9.608 },
+              Porsgrunn: { latitude: 59.139, longitude: 9.655 },
+            },
+          },
+          Aust_Agder: {
+            latitude: 58.5,
+            longitude: 8.5,
+            subDistricts: {
+              Arendal: { latitude: 58.461, longitude: 8.774 },
+              Grimstad: { latitude: 58.346, longitude: 8.563 },
+            },
+          },
+          Vest_Agder: {
+            latitude: 58.0,
+            longitude: 7.5,
+            subDistricts: {
+              Kristiansand: { latitude: 58.146, longitude: 8.005 },
+              Mandal: { latitude: 58.02, longitude: 7.45 },
+            },
+          },
+          Rogaland: {
+            latitude: 58.5,
+            longitude: 5.5,
+            subDistricts: {
+              Stavanger: { latitude: 58.969, longitude: 5.7331 },
+              Sandnes: { latitude: 58.853, longitude: 5.733 },
+            },
+          },
+          Hordaland: {
+            latitude: 60.0,
+            longitude: 5.0,
+            subDistricts: {
+              Bergen: { latitude: 60.3922, longitude: 5.324 },
+              Os: { latitude: 60.2, longitude: 5.5 },
+            },
+          },
+          SognOgFjordane: {
+            latitude: 61.0,
+            longitude: 6.0,
+            subDistricts: {
+              Førde: { latitude: 61.45, longitude: 5.999 },
+              Sogndal: { latitude: 61.2, longitude: 7.1 },
+            },
+          },
+          MøreOgRomsdal: {
+            latitude: 62.0,
+            longitude: 7.0,
+            subDistricts: {
+              Ålesund: { latitude: 62.472, longitude: 6.149 },
+              Molde: { latitude: 62.737, longitude: 7.16 },
+            },
+          },
+          Sør_Trøndelag: {
+            latitude: 63.0,
+            longitude: 10.0,
+            subDistricts: {
+              Trondheim: { latitude: 63.4305, longitude: 10.3951 },
+              Stjørdal: { latitude: 63.463, longitude: 10.893 },
+            },
+          },
+          Nord_Trøndelag: {
+            latitude: 64.0,
+            longitude: 11.0,
+            subDistricts: {
+              Steinkjer: { latitude: 64.014, longitude: 11.5 },
+              Namsos: { latitude: 64.466, longitude: 11.5 },
+            },
+          },
+          Nordland: {
+            latitude: 67.0,
+            longitude: 15.0,
+            subDistricts: {
+              Bodø: { latitude: 67.2804, longitude: 14.4049 },
+              Narvik: { latitude: 68.438, longitude: 17.428 },
+            },
+          },
+          TromsOgFinnmark: {
+            latitude: 69.0,
+            longitude: 18.0,
+            subDistricts: {
+              Tromsø: { latitude: 69.6496, longitude: 18.956 },
+              Alta: { latitude: 69.968, longitude: 23.271 },
+            },
+          },
+        },
+      },
 
 
 }
