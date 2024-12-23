@@ -2228,6 +2228,52 @@ const coordinates={
           },
         },
       },
-
+      Belgium: {
+        latitude: 50.8503,
+        longitude: 4.3517,
+        subDistricts: {
+          Flanders: {
+            latitude: 51.2,
+            longitude: 4.0,
+            subDistricts: {
+              Antwerp: { latitude: 51.2211, longitude: 4.4211 },
+              Ghent: { latitude: 51.0543, longitude: 3.7174 },
+              Bruges: { latitude: 51.2093, longitude: 3.2247 },
+              Leuven: { latitude: 50.8798, longitude: 4.7009 },
+              Mechelen: { latitude: 51.0275, longitude: 4.48 },
+            },
+          },
+          Wallonia: {
+            latitude: 50.6,
+            longitude: 4.5,
+            subDistricts: {
+              Charleroi: { latitude: 50.411, longitude: 4.4444 },
+              Liège: { latitude: 50.605, longitude: 5.5797 },
+              Namur: { latitude: 50.467, longitude: 4.87 },
+              Mons: { latitude: 50.4542, longitude: 3.9592 },
+              LaLouvière: { latitude: 50.4875, longitude: 4.195 },
+            },
+          },
+          BrusselsCapitalRegion: {
+            latitude: 50.8503,
+            longitude: 4.3517,
+            subDistricts: {
+              Brussels: { latitude: 50.8503, longitude: 4.3517 },
+              Ixelles: { latitude: 50.8333, longitude: 4.3667 },
+              SaintGilles: { latitude: 50.21, longitude: 4.35 },
+              Schaerbeek: { latitude: 50.867, longitude: 4.367 },
+            },
+          },
+          GermanSpeakingCommunity: {
+            latitude: 50.6,
+            longitude: 6.0,
+            subDistricts: {
+              Eupen: { latitude: 50.605, longitude: 6.036 },
+              Malmedy: { latitude: 50.4, longitude: 6.0 },
+              StVith: { latitude: 50.5, longitude: 6.0 },
+            },
+          },
+        },
+      },
 
 }
