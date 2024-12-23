@@ -1093,7 +1093,159 @@ const coordinates={
           },
         },
       },
-
+      France: {
+        latitude: 46.2276,
+        longitude: 2.2137,
+        subDistricts: {
+          AuvergneRhoneAlpes: {
+            latitude: 45.4471,
+            longitude: 4.3853,
+            subDistricts: {
+              Lyon: { latitude: 45.7578, longitude: 4.832 },
+              Grenoble: { latitude: 45.1885, longitude: 5.7245 },
+              ClermontFerrand: { latitude: 45.7772, longitude: 3.087 },
+            },
+          },
+          BourgogneFrancheComte: {
+            latitude: 47.2805,
+            longitude: 4.9994,
+            subDistricts: {
+              Dijon: { latitude: 47.322, longitude: 5.0415 },
+              Besancon: { latitude: 47.2378, longitude: 6.0241 },
+            },
+          },
+          Brittany: {
+            latitude: 48.202,
+            longitude: -2.9326,
+            subDistricts: {
+              Rennes: { latitude: 48.1173, longitude: -1.6778 },
+              Brest: { latitude: 48.3904, longitude: -4.4861 },
+            },
+          },
+          CentreValDeLoire: {
+            latitude: 47.7515,
+            longitude: 1.6756,
+            subDistricts: {
+              Orleans: { latitude: 47.9029, longitude: 1.9039 },
+              Tours: { latitude: 47.3941, longitude: 0.6848 },
+            },
+          },
+          GrandEst: {
+            latitude: 48.6998,
+            longitude: 6.1878,
+            subDistricts: {
+              Strasbourg: { latitude: 48.5734, longitude: 7.7521 },
+              Reims: { latitude: 49.2583, longitude: 4.0317 },
+              Metz: { latitude: 49.1193, longitude: 6.1757 },
+            },
+          },
+          HautsDeFrance: {
+            latitude: 50.4801,
+            longitude: 2.7937,
+            subDistricts: {
+              Lille: { latitude: 50.6292, longitude: 3.0573 },
+              Amiens: { latitude: 49.8941, longitude: 2.2957 },
+            },
+          },
+          IleDeFrance: {
+            latitude: 48.8566,
+            longitude: 2.3522,
+            subDistricts: {
+              Paris: { latitude: 48.8566, longitude: 2.3522 },
+              Versailles: { latitude: 48.8048, longitude: 2.1203 },
+            },
+          },
+          Normandy: {
+            latitude: 49.1829,
+            longitude: 0.3707,
+            subDistricts: {
+              Rouen: { latitude: 49.4431, longitude: 1.0993 },
+              Caen: { latitude: 49.1829, longitude: -0.3707 },
+            },
+          },
+          NouvelleAquitaine: {
+            latitude: 45.7089,
+            longitude: -0.3628,
+            subDistricts: {
+              Bordeaux: { latitude: 44.8378, longitude: -0.5792 },
+              Limoges: { latitude: 45.8315, longitude: 1.2578 },
+            },
+          },
+          Occitanie: {
+            latitude: 43.8927,
+            longitude: 3.2828,
+            subDistricts: {
+              Toulouse: { latitude: 43.6047, longitude: 1.4442 },
+              Montpellier: { latitude: 43.6108, longitude: 3.8767 },
+            },
+          },
+          PaysDeLaLoire: {
+            latitude: 47.4784,
+            longitude: -0.5632,
+            subDistricts: {
+              Nantes: { latitude: 47.2184, longitude: -1.5536 },
+              Angers: { latitude: 47.4784, longitude: -0.5632 },
+            },
+          },
+          ProvenceAlpesCoteDAzur: {
+            latitude: 43.9351,
+            longitude: 6.0679,
+            subDistricts: {
+              Marseille: { latitude: 43.2965, longitude: 5.3698 },
+              Nice: { latitude: 43.7102, longitude: 7.262 },
+            },
+          },
+          Corsica: {
+            latitude: 42.0396,
+            longitude: 9.0129,
+            subDistricts: {
+              Ajaccio: { latitude: 41.9192, longitude: 8.7386 },
+              Bastia: { latitude: 42.6976, longitude: 9.4508 },
+            },
+          },
+          // Adding the overseas regions (DOM-TOM)
+          Guadeloupe: {
+            latitude: 16.265,
+            longitude: -61.551,
+            subDistricts: {
+              BasseTerre: { latitude: 16.0341, longitude: -61.7074 },
+              Pointe_A_Pitre: { latitude: 16.241, longitude: -61.534 },
+            },
+          },
+          Martinique: {
+            latitude: 14.6415,
+            longitude: -61.0242,
+            subDistricts: {
+              FortDeFrance: { latitude: 14.6104, longitude: -61.0588 },
+              LeTrinite: { latitude: 14.7376, longitude: -60.9658 },
+            },
+          },
+          Guyane: {
+            latitude: 3.9339,
+            longitude: -53.1258,
+            subDistricts: {
+              Cayenne: { latitude: 4.9227, longitude: -52.3269 },
+              Kourou: { latitude: 5.1598, longitude: -52.6498 },
+            },
+          },
+          Reunion: {
+            latitude: -21.1151,
+            longitude: 55.5364,
+            subDistricts: {
+              SaintDenis: { latitude: -20.8789, longitude: 55.4481 },
+              SaintPierre: { latitude: -21.3393, longitude: 55.4781 },
+            },
+          },
+          Mayotte: {
+            latitude: -12.8275,
+            longitude: 45.1662,
+            subDistricts: {
+              Mamoudzou: { latitude: -12.7823, longitude: 45.2279 },
+              Dzaoudzi: { latitude: -12.7834, longitude: 45.2749 },
+            },
+          },
+        },
+      },
 
 
 }
