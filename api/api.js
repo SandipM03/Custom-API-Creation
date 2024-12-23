@@ -3101,6 +3101,33 @@ const coordinates={
           },
         },
       },
+      Moldova: {
+        latitude: 47.4116,
+        longitude: 28.3699,
+        subDistricts: {
+          Chișinău: {
+            latitude: 47.0105,
+            longitude: 28.9824,
+            subDistricts: {
+              Chișinău: { latitude: 47.0105, longitude: 28.9824 },
+            },
+          },
+          Bălți: {
+            latitude: 47.764,
+            longitude: 27.935,
+            subDistricts: {
+              Bălți: { latitude: 47.764, longitude: 27.935 },
+            },
+          },
+          Tiraspol: {
+            latitude: 46.85,
+            longitude: 29.6,
+            subDistricts: {
+              Tiraspol: { latitude: 46.85, longitude: 29.6 },
+            },
+          },
+        },
+      },
 
 
 }
