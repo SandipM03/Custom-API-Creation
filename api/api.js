@@ -2508,4 +2508,82 @@ const coordinates={
           },
         },
       },
+      Austria: {
+        latitude: 47.5162,
+        longitude: 14.5501,
+        subDistricts: {
+          Burgenland: {
+            latitude: 47.0,
+            longitude: 16.0,
+            subDistricts: {
+              Eisenstadt: { latitude: 47.8419, longitude: 16.513 },
+              NeusiedlAmSee: { latitude: 47.9431, longitude: 16.853 },
+            },
+          },
+          Carinthia: {
+            latitude: 46.5,
+            longitude: 14.5,
+            subDistricts: {
+              Klagenfurt: { latitude: 46.6241, longitude: 14.3126 },
+              Villach: { latitude: 46.6104, longitude: 13.855 },
+            },
+          },
+          LowerAustria: {
+            latitude: 48.2,
+            longitude: 15.5,
+            subDistricts: {
+              St_Pölten: { latitude: 48.2, longitude: 15.62 },
+              Krems: { latitude: 48.399, longitude: 15.6 },
+            },
+          },
+          UpperAustria: {
+            latitude: 48.0,
+            longitude: 14.0,
+            subDistricts: {
+              Linz: { latitude: 48.3069, longitude: 14.2858 },
+              Wels: { latitude: 48.1667, longitude: 14.0333 },
+            },
+          },
+          Salzburg: {
+            latitude: 47.0,
+            longitude: 13.0,
+            subDistricts: {
+              Salzburg: { latitude: 47.8095, longitude: 13.055 },
+              Hallein: { latitude: 47.6833, longitude: 13.1667 },
+            },
+          },
+          Styria: {
+            latitude: 47.5,
+            longitude: 15.0,
+            subDistricts: {
+              Graz: { latitude: 47.0707, longitude: 15.4395 },
+              Leoben: { latitude: 47.3833, longitude: 15.0833 },
+            },
+          },
+          Tyrol: {
+            latitude: 47.0,
+            longitude: 11.5,
+            subDistricts: {
+              Innsbruck: { latitude: 47.2692, longitude: 11.4041 },
+              Kufstein: { latitude: 47.5983, longitude: 12.1733 },
+            },
+          },
+          Vorarlberg: {
+            latitude: 47.5,
+            longitude: 9.75,
+            subDistricts: {
+              Bregenz: { latitude: 47.5, longitude: 9.7333 },
+              Dornbirn: { latitude: 47.4125, longitude: 9.74 },
+            },
+          },
+          Vienna: {
+            latitude: 48.2082,
+            longitude: 16.3738,
+            subDistricts: {
+              Vienna: { latitude: 48.2082, longitude: 16.3738 },
+            },
+          },
+        },
+      },
+
 }
