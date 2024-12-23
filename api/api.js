@@ -3074,4 +3074,33 @@ const coordinates={
           },
         },
       },
+      Belarus: {
+        latitude: 53.9045,
+        longitude: 27.559,
+        subDistricts: {
+          Minsk: {
+            latitude: 53.9045,
+            longitude: 27.559,
+            subDistricts: {
+              Minsk: { latitude: 53.9045, longitude: 27.559 },
+            },
+          },
+          Brest: {
+            latitude: 52.097,
+            longitude: 23.688,
+            subDistricts: {
+              Brest: { latitude: 52.097, longitude: 23.688 },
+            },
+          },
+          Gomel: {
+            latitude: 52.441,
+            longitude: 30.975,
+            subDistricts: {
+              Gomel: { latitude: 52.441, longitude: 30.975 },
+            },
+          },
+        },
+      },
+
+
 }
