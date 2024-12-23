@@ -2052,6 +2052,67 @@ const coordinates={
           },
         },
       },
-
+      Ireland: {
+        latitude: 53.4129,
+        longitude: -8.2439,
+        subDistricts: {
+          Leinster: {
+            latitude: 52.5,
+            longitude: -6.0,
+            subDistricts: {
+              Dublin: { latitude: 53.3498, longitude: -6.2603 },
+              Wicklow: { latitude: 52.988, longitude: -6.0369 },
+              Kildare: { latitude: 53.202, longitude: -6.7039 },
+              Wexford: { latitude: 52.334, longitude: -6.4583 },
+              Carlow: { latitude: 52.836, longitude: -6.926 },
+              Kilkenny: { latitude: 52.6542, longitude: -7.2539 },
+              Laois: { latitude: 52.988, longitude: -7.3 },
+              Offaly: { latitude: 53.2, longitude: -7.5 },
+              Meath: { latitude: 53.7, longitude: -6.5 },
+              Louth: { latitude: 53.8, longitude: -6.3 },
+              Westmeath: { latitude: 53.5, longitude: -7.5 },
+              Longford: { latitude: 53.7, longitude: -7.8 },
+              Tipperary: { latitude: 52.5, longitude: -7.5 },
+            },
+          },
+          Munster: {
+            latitude: 52.5,
+            longitude: -8.0,
+            subDistricts: {
+              Cork: { latitude: 51.8985, longitude: -8.4756 },
+              Limerick: { latitude: 52.6634, longitude: -8.6267 },
+              Clare: { latitude: 52.947, longitude: -9.051 },
+              Kerry: { latitude: 52.2053, longitude: -9.563 },
+              Tipperary: { latitude: 52.5, longitude: -7.5 },
+              Waterford: { latitude: 52.2584, longitude: -7.11 },
+            },
+          },
+          Connacht: {
+            latitude: 53.5,
+            longitude: -9.0,
+            subDistricts: {
+              Galway: { latitude: 53.2707, longitude: -9.0568 },
+              Leitrim: { latitude: 54.1, longitude: -8.5 },
+              Mayo: { latitude: 53.85, longitude: -9.5 },
+              Roscommon: { latitude: 53.7, longitude: -8.2 },
+              Sligo: { latitude: 54.2667, longitude: -8.4833 },
+            },
+          },
+          Ulster: {
+            latitude: 55.0,
+            longitude: -7.0,
+            subDistricts: {
+              Donegal: { latitude: 54.6542, longitude: -8.109 },
+              Antrim: { latitude: 54.5, longitude: -6.5 },
+              Down: { latitude: 54.3, longitude: -5.8 },
+              Armagh: { latitude: 54.35, longitude: -6.65 },
+              Londonderry: { latitude: 54.95, longitude: -7.0 },
+              Monaghan: { latitude: 54.0, longitude: -6.8 },
+              Cavan: { latitude: 54.0, longitude: -7.5 },
+              Fermanagh: { latitude: 54.3444, longitude: -7.6314 },
+            },
+          },
+        },
+      },
 
 }
