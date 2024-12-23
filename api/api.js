@@ -1769,4 +1769,289 @@ const coordinates={
           },
         },
       },
+
+      United_Kingdom: {
+        latitude: 55.3781,
+        longitude: -3.436,
+        subDistricts: {
+          England: {
+            latitude: 52.3555,
+            longitude: -1.1743,
+            subDistricts: {
+              // South East England
+              SouthEast: {
+                latitude: 51.45,
+                longitude: -0.59,
+                subDistricts: {
+                  Berkshire: { latitude: 51.4, longitude: -1.0 },
+                  Buckinghamshire: { latitude: 51.8, longitude: -0.8 },
+                  EastSussex: { latitude: 50.9, longitude: 0.2 },
+                  Hampshire: { latitude: 51.05, longitude: -1.3 },
+                  IsleOfWight: { latitude: 50.6736, longitude: -1.2967 },
+                  Kent: { latitude: 51.2, longitude: 0.7167 },
+                  Oxfordshire: { latitude: 51.75, longitude: -1.25 },
+                  Surrey: { latitude: 51.25, longitude: -0.3667 },
+                  WestSussex: { latitude: 50.9278, longitude: -0.4617 },
+                },
+              },
+              // London
+              London: {
+                latitude: 51.5074,
+                longitude: -0.1278,
+                subDistricts: {
+                  CentralLondon: { latitude: 51.5074, longitude: -0.1278 },
+                  EastLondon: { latitude: 51.54, longitude: 0.0 },
+                  NorthLondon: { latitude: 51.59, longitude: -0.12 },
+                  SouthLondon: { latitude: 51.45, longitude: -0.1 },
+                  WestLondon: { latitude: 51.51, longitude: -0.28 },
+                },
+              },
+              // South West England
+              SouthWest: {
+                latitude: 50.7772,
+                longitude: -3.9995,
+                subDistricts: {
+                  Bristol: { latitude: 51.4545, longitude: -2.5879 },
+                  Cornwall: { latitude: 50.266, longitude: -5.0527 },
+                  Devon: { latitude: 50.7156, longitude: -3.5309 },
+                  Dorset: { latitude: 50.7488, longitude: -2.3445 },
+                  Gloucestershire: { latitude: 51.8642, longitude: -2.238 },
+                  Somerset: { latitude: 51.1052, longitude: -2.9262 },
+                  Wiltshire: { latitude: 51.3492, longitude: -1.9927 },
+                },
+              },
+              // East of England
+              East: {
+                latitude: 52.1911,
+                longitude: 0.1927,
+                subDistricts: {
+                  Bedfordshire: { latitude: 52.1, longitude: -0.5 },
+                  Cambridgeshire: { latitude: 52.2053, longitude: 0.1218 },
+                  Essex: { latitude: 51.75, longitude: 0.5 },
+                  Hertfordshire: { latitude: 51.8, longitude: -0.2 },
+                  Norfolk: { latitude: 52.614, longitude: 0.8864 },
+                  Suffolk: { latitude: 52.1872, longitude: 0.9708 },
+                },
+              },
+              // West Midlands
+              WestMidlands: {
+                latitude: 52.4751,
+                longitude: -1.8298,
+                subDistricts: {
+                  Birmingham: { latitude: 52.4862, longitude: -1.8904 },
+                  Coventry: { latitude: 52.4068, longitude: -1.5197 },
+                  Herefordshire: { latitude: 52.0765, longitude: -2.6544 },
+                  Shropshire: { latitude: 52.6592, longitude: -2.7282 },
+                  Staffordshire: { latitude: 52.8792, longitude: -2.0584 },
+                  Warwickshire: { latitude: 52.2823, longitude: -1.5849 },
+                  Worcestershire: { latitude: 52.192, longitude: -2.2215 },
+                },
+              },
+              // East Midlands
+              EastMidlands: {
+                latitude: 52.8306,
+                longitude: -1.3321,
+                subDistricts: {
+                  Derbyshire: { latitude: 53.1333, longitude: -1.6 },
+                  Leicestershire: { latitude: 52.772, longitude: -1.205 },
+                  Lincolnshire: { latitude: 53.1, longitude: -0.2 },
+                  Northamptonshire: { latitude: 52.2333, longitude: -0.9 },
+                  Nottinghamshire: { latitude: 53.1333, longitude: -1.1333 },
+                  Rutland: { latitude: 52.6583, longitude: -0.7 },
+                },
+              },
+              // Yorkshire and the Humber
+              YorkshireAndTheHumber: {
+                latitude: 53.9591,
+                longitude: -1.0792,
+                subDistricts: {
+                  EastRiding: { latitude: 53.8419, longitude: -0.4278 },
+                  NorthYorkshire: { latitude: 54.0, longitude: -1.5 },
+                  SouthYorkshire: { latitude: 53.5, longitude: -1.3 },
+                  WestYorkshire: { latitude: 53.8, longitude: -1.5491 },
+                },
+              },
+              // North West England
+              NorthWest: {
+                latitude: 53.4084,
+                longitude: -2.9916,
+                subDistricts: {
+                  Cheshire: { latitude: 53.1667, longitude: -2.5833 },
+                  Cumbria: { latitude: 54.5772, longitude: -2.7975 },
+                  GreaterManchester: { latitude: 53.4831, longitude: -2.2441 },
+                  Lancashire: { latitude: 53.8, longitude: -2.6 },
+                  Merseyside: { latitude: 53.4, longitude: -2.9833 },
+                },
+              },
+              // North East England
+              NorthEast: {
+                latitude: 54.9783,
+                longitude: -1.6178,
+                subDistricts: {
+                  Durham: { latitude: 54.7761, longitude: -1.5733 },
+                  Northumberland: { latitude: 55.2083, longitude: -2.0784 },
+                  TyneAndWear: { latitude: 54.9783, longitude: -1.6178 },
+                },
+              },
+            },
+          },
+          Scotland: {
+            latitude: 56.4907,
+            longitude: -4.2026,
+            subDistricts: {
+              // Regions of Scotland
+              Highlands: {
+                latitude: 57.5359,
+                longitude: -4.8281,
+                subDistricts: {
+                  Inverness: { latitude: 57.4778, longitude: -4.2247 },
+                  FortWilliam: { latitude: 56.8198, longitude: -5.1052 },
+                },
+              },
+              Grampian: {
+                latitude: 57.1497,
+                longitude: -2.1833,
+                subDistricts: {
+                  Aberdeen: { latitude: 57.1497, longitude: -2.0943 },
+                  Aberdeenshire: { latitude: 57.2869, longitude: -2.381 },
+                },
+              },
+              Tayside: {
+                latitude: 56.462,
+                longitude: -3.0207,
+                subDistricts: {
+                  Dundee: { latitude: 56.462, longitude: -2.9707 },
+                  Perth: { latitude: 56.395, longitude: -3.4308 },
+                },
+              },
+              Fife: {
+                latitude: 56.2082,
+                longitude: -3.1495,
+                subDistricts: {
+                  StAndrews: { latitude: 56.3398, longitude: -2.7967 },
+                  Dunfermline: { latitude: 56.0719, longitude: -3.4538 },
+                },
+              },
+              Lothian: {
+                latitude: 55.9533,
+                longitude: -3.1883,
+                subDistricts: {
+                  Edinburgh: { latitude: 55.9533, longitude: -3.1883 },
+                  WestLothian: { latitude: 55.907, longitude: -3.5519 },
+                },
+              },
+              Strathclyde: {
+                latitude: 55.8642,
+                longitude: -4.2518,
+                subDistricts: {
+                  Glasgow: { latitude: 55.8642, longitude: -4.2518 },
+                  Lanarkshire: { latitude: 55.6736, longitude: -3.782 },
+                },
+              },
+              Borders: {
+                latitude: 55.5482,
+                longitude: -2.786,
+                subDistricts: {
+                  Galashiels: { latitude: 55.6179, longitude: -2.8106 },
+                  Hawick: { latitude: 55.427, longitude: -2.7901 },
+                },
+              },
+            },
+          },
+          Wales: {
+            latitude: 52.1307,
+            longitude: -3.7837,
+            subDistricts: {
+              NorthWales: {
+                latitude: 53.1317,
+                longitude: -3.7933,
+                subDistricts: {
+                  Wrexham: { latitude: 53.0428, longitude: -2.9926 },
+                  Rhyl: { latitude: 53.3219, longitude: -3.491 },
+                },
+              },
+              MidWales: {
+                latitude: 52.5,
+                longitude: -3.65,
+                subDistricts: {
+                  Aberystwyth: { latitude: 52.415, longitude: -4.0829 },
+                  Newtown: { latitude: 52.5133, longitude: -3.3144 },
+                },
+              },
+              SouthWales: {
+                latitude: 51.4816,
+                longitude: -3.1791,
+                subDistricts: {
+                  Cardiff: { latitude: 51.4816, longitude: -3.1791 },
+                  Swansea: { latitude: 51.6214, longitude: -3.9436 },
+                  Newport: { latitude: 51.5842, longitude: -2.9977 },
+                },
+              },
+            },
+          },
+          NorthernIreland: {
+            latitude: 54.7877,
+            longitude: -6.4923,
+            subDistricts: {
+              Belfast: {
+                latitude: 54.5973,
+                longitude: -5.9301,
+                subDistricts: {
+                  BelfastCity: { latitude: 54.5973, longitude: -5.9301 },
+                  NorthBelfast: { latitude: 54.6332, longitude: -5.9392 },
+                },
+              },
+              CountyAntrim: {
+                latitude: 54.9,
+                longitude: -6.25,
+                subDistricts: {
+                  Ballymena: { latitude: 54.8656, longitude: -6.2789 },
+                  Lisburn: { latitude: 54.5162, longitude: -6.0581 },
+                },
+              },
+              CountyArmagh: {
+                latitude: 54.35,
+                longitude: -6.65,
+                subDistricts: {
+                  ArmaghCity: { latitude: 54.3503, longitude: -6.6528 },
+                  Lurgan: { latitude: 54.4634, longitude: -6.3335 },
+                },
+              },
+              CountyDown: {
+                latitude: 54.3333,
+                longitude: -5.7167,
+                subDistricts: {
+                  Bangor: { latitude: 54.6598, longitude: -5.6697 },
+                  Newry: { latitude: 54.1759, longitude: -6.3377 },
+                },
+              },
+              CountyFermanagh: {
+                latitude: 54.3444,
+                longitude: -7.6314,
+                subDistricts: {
+                  Enniskillen: { latitude: 54.3466, longitude: -7.6349 },
+                },
+              },
+              CountyLondonderry: {
+                latitude: 54.95,
+                longitude: -6.95,
+                subDistricts: {
+                  Derry: { latitude: 54.9966, longitude: -7.3086 },
+                  Coleraine: { latitude: 55.1333, longitude: -6.6667 },
+                },
+              },
+              CountyTyrone: {
+                latitude: 54.6,
+                longitude: -7.3,
+                subDistricts: {
+                  Omagh: { latitude: 54.5977, longitude: -7.31 },
+                  Strabane: { latitude: 54.8271, longitude: -7.4731 },
+                },
+              },
+            },
+          },
+        },
+      },
+
+
 }
