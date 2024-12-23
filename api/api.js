@@ -2585,5 +2585,92 @@ const coordinates={
           },
         },
       },
+      Greece: {
+        latitude: 39.0742,
+        longitude: 21.8243,
+        subDistricts: {
+          Attica: {
+            latitude: 37.9838,
+            longitude: 23.7275,
+            subDistricts: {
+              Athens: { latitude: 37.9838, longitude: 23.7275 },
+              Piraeus: { latitude: 37.9475, longitude: 23.6258 },
+              Kifisia: { latitude: 38.0733, longitude: 23.8144 },
+            },
+          },
+          CentralGreece: {
+            latitude: 38.5,
+            longitude: 22.0,
+            subDistricts: {
+              Livadia: { latitude: 38.5, longitude: 22.5 },
+              Lamia: { latitude: 38.9, longitude: 22.5 },
+              Karpenisi: { latitude: 38.9, longitude: 21.8 },
+            },
+          },
+          Thessaly: {
+            latitude: 39.5,
+            longitude: 22.5,
+            subDistricts: {
+              Larissa: { latitude: 39.64, longitude: 22.42 },
+              Trikala: { latitude: 39.555, longitude: 21.76 },
+              Karditsa: { latitude: 39.3667, longitude: 21.9167 },
+            },
+          },
+          Epirus: {
+            latitude: 39.6,
+            longitude: 20.8,
+            subDistricts: {
+              Ioannina: { latitude: 39.6667, longitude: 20.85 },
+              Preveza: { latitude: 38.95, longitude: 20.75 },
+              Arta: { latitude: 39.2, longitude: 20.3 },
+            },
+          },
+          Macedonia: {
+            latitude: 40.5,
+            longitude: 22.0,
+            subDistricts: {
+              Thessaloniki: { latitude: 40.6401, longitude: 22.9444 },
+              Kavala: { latitude: 40.9361, longitude: 24.4042 },
+              Serres: { latitude: 41.09, longitude: 23.55 },
+            },
+          },
+          Thrace: {
+            latitude: 41.0,
+            longitude: 25.0,
+            subDistricts: {
+              Komotini: { latitude: 41.1, longitude: 25.4 },
+              Xanthi: { latitude: 41.15, longitude: 24.9 },
+              Alexandroupoli: { latitude: 40.85, longitude: 25.9 },
+            },
+          },
+          Peloponnese: {
+            latitude: 37.5,
+            longitude: 22.0,
+            subDistricts: {
+              Patras: { latitude: 38.244, longitude: 21.7346 },
+              Tripoli: { latitude: 37.5, longitude: 22.4 },
+              Kalamata: { latitude: 37.038, longitude: 22.114 },
+            },
+          },
+          AegeanIslands: {
+            latitude: 37.5,
+            longitude: 25.0,
+            subDistricts: {
+              Mykonos: { latitude: 37.4479, longitude: 25.3289 },
+              Santorini: { latitude: 36.3932, longitude: 25.4615 },
+              Rhodes: { latitude: 36.4344, longitude: 28.2176 },
+            },
+          },
+          Crete: {
+            latitude: 35.2401,
+            longitude: 24.8093,
+            subDistricts: {
+              Heraklion: { latitude: 35.34, longitude: 25.1442 },
+              Chania: { latitude: 35.5156, longitude: 24.0182 },
+              Rethymno: { latitude: 35.3667, longitude: 24.5 },
+            },
+          },
+        },
+      },
 
 }
