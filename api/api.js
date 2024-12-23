@@ -2332,5 +2332,180 @@ const coordinates={
           },
         },
       },
-
+      Switzerland: {
+        latitude: 46.8182,
+        longitude: 8.2275,
+        subDistricts: {
+          Aargau: {
+            latitude: 47.3877,
+            longitude: 8.2345,
+            subDistricts: {
+              Aarau: { latitude: 47.3929, longitude: 8.2345 },
+              Baden: { latitude: 47.4637, longitude: 8.2065 },
+              Lenzburg: { latitude: 47.485, longitude: 8.179 },
+            },
+          },
+          AppenzellInnerrhoden: {
+            latitude: 47.365,
+            longitude: 9.409,
+            subDistricts: {
+              Appenzell: { latitude: 47.365, longitude: 9.409 },
+            },
+          },
+          AppenzellAusserrhoden: {
+            latitude: 47.3667,
+            longitude: 9.275,
+            subDistricts: {
+              Herisau: { latitude: 47.3842, longitude: 9.276 },
+              St_Gallen: { latitude: 47.4234, longitude: 9.3767 },
+            },
+          },
+          BaselCity: {
+            latitude: 47.5596,
+            longitude: 7.5886,
+            subDistricts: {
+              Basel: { latitude: 47.5596, longitude: 7.5886 },
+            },
+          },
+          BaselLandschaft: {
+            latitude: 47.4667,
+            longitude: 7.7333,
+            subDistricts: {
+              Liestal: { latitude: 47.485, longitude: 7.7333 },
+              Pratteln: { latitude: 47.5, longitude: 7.7333 },
+            },
+          },
+          Bern: {
+            latitude: 46.948,
+            longitude: 7.4474,
+            subDistricts: {
+              Bern: { latitude: 46.948, longitude: 7.4474 },
+              Thun: { latitude: 46.748, longitude: 7.629 },
+              Biel: { latitude: 47.1369, longitude: 7.246 },
+            },
+          },
+          Fribourg: {
+            latitude: 46.8065,
+            longitude: 7.1619,
+            subDistricts: {
+              Fribourg: { latitude: 46.8065, longitude: 7.1619 },
+              Bulle: { latitude: 46.62, longitude: 7.199 },
+            },
+          },
+          Geneva: {
+            latitude: 46.2044,
+            longitude: 6.1432,
+            subDistricts: {
+              Geneva: { latitude: 46.2044, longitude: 6.1432 },
+            },
+          },
+          Glarus: {
+            latitude: 47.04,
+            longitude: 9.0667,
+            subDistricts: {
+              Glarus: { latitude: 47.04, longitude: 9.0667 },
+            },
+          },
+          Graubünden: {
+            latitude: 46.656,
+            longitude: 9.532,
+            subDistricts: {
+              Chur: { latitude: 46.85, longitude: 9.532 },
+              Davos: { latitude: 46.8021, longitude: 9.835 },
+              St_Moritz: { latitude: 46.497, longitude: 9.838 },
+            },
+          },
+          Jura: {
+            latitude: 47.365,
+            longitude: 7.0,
+            subDistricts: {
+              Delémont: { latitude: 47.3667, longitude: 7.3333 },
+              Porrentruy: { latitude: 47.42, longitude: 7.0833 },
+            },
+          },
+          Neuchâtel: {
+            latitude: 46.9896,
+            longitude: 6.9293,
+            subDistricts: {
+              Neuchâtel: { latitude: 46.9896, longitude: 6.9293 },
+              La_Chaux_de_Fonds: { latitude: 47.104, longitude: 6.832 },
+            },
+          },
+          Nidwalden: {
+            latitude: 46.9333,
+            longitude: 8.3833,
+            subDistricts: {
+              Stans: { latitude: 46.964, longitude: 8.366 },
+            },
+          },
+          Obwalden: {
+            latitude: 46.8833,
+            longitude: 8.25,
+            subDistricts: {
+              Sarnen: { latitude: 46.898, longitude: 8.247 },
+            },
+          },
+          Schaffhausen: {
+            latitude: 47.7333,
+            longitude: 8.6333,
+            subDistricts: {
+              Schaffhausen: { latitude: 47.6939, longitude: 8.6342 },
+            },
+          },
+          Schwyz: {
+            latitude: 47.02,
+            longitude: 8.6,
+            subDistricts: {
+              Schwyz: { latitude: 47.02, longitude: 8.6 },
+              Einsiedeln: { latitude: 47.037, longitude: 8.743 },
+            },
+          },
+          Thurgau: {
+            latitude: 47.5667,
+            longitude: 9.0,
+            subDistricts: {
+              Frauenfeld: { latitude: 47.556, longitude: 8.895 },
+              Kreuzlingen: { latitude: 47.65, longitude: 9.1667 },
+            },
+          },
+          Uri: {
+            latitude: 46.8,
+            longitude: 8.6,
+            subDistricts: {
+              Altdorf: { latitude: 46.8833, longitude: 8.6333 },
+            },
+          },
+          Vaud: {
+            latitude: 46.6034,
+            longitude: 6.669,
+            subDistricts: {
+              Lausanne: { latitude: 46.5197, longitude: 6.6323 },
+              Montreux: { latitude: 46.4316, longitude: 6.9102 },
+            },
+          },
+          Valais: {
+            latitude: 46.3167,
+            longitude: 7.5,
+            subDistricts: {
+              Sion: { latitude: 46.2333, longitude: 7.32 },
+              Brig: { latitude: 46.3167, longitude: 8.0 },
+            },
+          },
+          Zug: {
+            latitude: 47.1667,
+            longitude: 8.5167,
+            subDistricts: {
+              Zug: { latitude: 47.1667, longitude: 8.5167 },
+            },
+          },
+          Zurich: {
+            latitude: 47.3667,
+            longitude: 8.55,
+            subDistricts: {
+              Zurich: { latitude: 47.3769, longitude: 8.5417 },
+              Winterthur: { latitude: 47.4992, longitude: 8.7241 },
+            },
+          },
+        },
+      },
 }
