@@ -2873,6 +2873,117 @@ const coordinates={
           },
         },
       },
+      Finland: {
+        latitude: 61.9241,
+        longitude: 25.7482,
+        subDistricts: {
+          Uusimaa: {
+            latitude: 60.0,
+            longitude: 24.0,
+            subDistricts: {
+              Helsinki: { latitude: 60.1695, longitude: 24.9354 },
+              Vantaa: { latitude: 60.2941, longitude: 25.0402 },
+              Espoo: { latitude: 60.2055, longitude: 24.6559 },
+            },
+          },
+          VarsinaisSuomi: {
+            latitude: 60.5,
+            longitude: 22.5,
+            subDistricts: {
+              Turku: { latitude: 60.4513, longitude: 22.2666 },
+              Naantali: { latitude: 60.4667, longitude: 22.0333 },
+            },
+          },
+          Satakunta: {
+            latitude: 61.0,
+            longitude: 22.0,
+            subDistricts: {
+              Pori: { latitude: 61.4482, longitude: 21.7877 },
+              Rauma: { latitude: 61.135, longitude: 21.505 },
+            },
+          },
+          Tavastia: {
+            latitude: 61.0,
+            longitude: 24.0,
+            subDistricts: {
+              Hämeenlinna: { latitude: 60.996, longitude: 24.446 },
+              Lahti: { latitude: 60.982, longitude: 25.661 },
+            },
+          },
+          Pirkanmaa: {
+            latitude: 61.5,
+            longitude: 23.0,
+            subDistricts: {
+              Tampere: { latitude: 61.4991, longitude: 23.76 },
+              Nokia: { latitude: 61.4333, longitude: 23.5 },
+            },
+          },
+          SouthOstrobothnia: {
+            latitude: 62.0,
+            longitude: 23.0,
+            subDistricts: {
+              Seinäjoki: { latitude: 62.6, longitude: 22.85 },
+              Lapua: { latitude: 62.8, longitude: 23.0 },
+            },
+          },
+          Ostrobothnia: {
+            latitude: 63.0,
+            longitude: 22.0,
+            subDistricts: {
+              Vaasa: { latitude: 63.0942, longitude: 21.6158 },
+              Kokkola: { latitude: 63.831, longitude: 22.713 },
+            },
+          },
+          CentralFinland: {
+            latitude: 62.0,
+            longitude: 25.0,
+            subDistricts: {
+              Jyväskylä: { latitude: 62.2415, longitude: 25.747 },
+              Jyvaskyla: { latitude: 62.2415, longitude: 25.747 },
+            },
+          },
+          NorthSavo: {
+            latitude: 62.0,
+            longitude: 27.0,
+            subDistricts: {
+              Kuopio: { latitude: 62.891, longitude: 27.6879 },
+              Varkaus: { latitude: 62.314, longitude: 27.883 },
+            },
+          },
+          SouthSavo: {
+            latitude: 61.5,
+            longitude: 28.0,
+            subDistricts: {
+              Mikkeli: { latitude: 61.688, longitude: 27.271 },
+              Savonlinna: { latitude: 61.866, longitude: 28.888 },
+            },
+          },
+          NorthKarelia: {
+            latitude: 62.0,
+            longitude: 30.0,
+            subDistricts: {
+              Joensuu: { latitude: 62.6, longitude: 29.766 },
+              Kitee: { latitude: 61.5, longitude: 30.0 },
+            },
+          },
+          Kainuu: {
+            latitude: 64.0,
+            longitude: 28.0,
+            subDistricts: {
+              Kajaani: { latitude: 64.22, longitude: 27.733 },
+              Sotkamo: { latitude: 64.0, longitude: 28.0 },
+            },
+          },
+          Lapland: {
+            latitude: 67.0,
+            longitude: 25.0,
+            subDistricts: {
+              Rovaniemi: { latitude: 66.5039, longitude: 25.9211 },
+              Kemi: { latitude: 65.736, longitude: 24.586 },
+            },
+          },
+        },
+      },
 
 
 }
