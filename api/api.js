@@ -789,8 +789,311 @@ const coordinates={
         },
       },
 
+      United_States: {
+        latitude: 37.0902,
+        longitude: -95.7129,
+        subDistricts: {
+          Alabama: {
+            latitude: 32.3182,
+            longitude: -86.9023,
+            subDistricts: {
+              Montgomery: { latitude: 32.3792, longitude: -86.3077 },
+              Birmingham: { latitude: 33.5207, longitude: -86.8025 },
+            },
+          },
+          Alaska: {
+            latitude: 64.2008,
+            longitude: -149.4937,
+            subDistricts: {
+              Juneau: { latitude: 58.3019, longitude: -134.4197 },
+              Anchorage: { latitude: 61.2181, longitude: -149.9003 },
+            },
+          },
+          Arizona: {
+            latitude: 33.7298,
+            longitude: -111.4312,
+            subDistricts: {
+              Phoenix: { latitude: 33.4484, longitude: -112.074 },
+              Tucson: { latitude: 32.2226, longitude: -110.9747 },
+            },
+          },
+          Kentucky: {
+            latitude: 37.6681,
+            longitude: -84.6701,
+            subDistricts: {
+              Frankfort: { latitude: 38.2009, longitude: -84.8733 },
+              Louisville: { latitude: 38.2527, longitude: -85.7585 },
+            },
+          },
+          Louisiana: {
+            latitude: 31.1695,
+            longitude: -91.8678,
+            subDistricts: {
+              BatonRouge: { latitude: 30.4515, longitude: -91.1871 },
+              NewOrleans: { latitude: 29.9511, longitude: -90.0715 },
+            },
+          },
+          Maine: {
+            latitude: 44.6939,
+            longitude: -69.3819,
+            subDistricts: {
+              Augusta: { latitude: 44.3106, longitude: -69.7795 },
+              Portland: { latitude: 43.6591, longitude: -70.2568 },
+            },
+          },
+          Maryland: {
+            latitude: 39.0639,
+            longitude: -76.8021,
+            subDistricts: {
+              Annapolis: { latitude: 38.9784, longitude: -76.4922 },
+              Baltimore: { latitude: 39.2904, longitude: -76.6122 },
+            },
+          },
+          Massachusetts: {
+            latitude: 42.2304,
+            longitude: -71.5301,
+            subDistricts: {
+              Boston: { latitude: 42.3601, longitude: -71.0589 },
+              Worcester: { latitude: 42.2626, longitude: -71.8023 },
+            },
+          },
+          Michigan: {
+            latitude: 44.3148,
+            longitude: -85.6024,
+            subDistricts: {
+              Lansing: { latitude: 42.7325, longitude: -84.5555 },
+              Detroit: { latitude: 42.3314, longitude: -83.0458 },
+            },
+          },
+          Minnesota: {
+            latitude: 46.7296,
+            longitude: -94.6859,
+            subDistricts: {
+              SaintPaul: { latitude: 44.9537, longitude: -93.09 },
+              Minneapolis: { latitude: 44.9778, longitude: -93.265 },
+            },
+          },
+          Mississippi: {
+            latitude: 32.3547,
+            longitude: -89.3985,
+            subDistricts: {
+              Jackson: { latitude: 32.2988, longitude: -90.1848 },
+              Gulfport: { latitude: 30.3674, longitude: -89.0928 },
+            },
+          },
+          Missouri: {
+            latitude: 38.4561,
+            longitude: -92.2884,
+            subDistricts: {
+              JeffersonCity: { latitude: 38.5767, longitude: -92.1735 },
+              KansasCity: { latitude: 39.0997, longitude: -94.5786 },
+            },
+          },
+          Montana: {
+            latitude: 46.8797,
+            longitude: -110.3626,
+            subDistricts: {
+              Helena: { latitude: 46.5891, longitude: -112.0391 },
+              Billings: { latitude: 45.7833, longitude: -108.5007 },
+            },
+          },
+          Nebraska: {
+            latitude: 41.4925,
+            longitude: -99.9018,
+            subDistricts: {
+              Lincoln: { latitude: 40.8136, longitude: -96.7026 },
+              Omaha: { latitude: 41.2565, longitude: -95.9345 },
+            },
+          },
+          Nevada: {
+            latitude: 38.8026,
+            longitude: -116.4194,
+            subDistricts: {
+              CarsonCity: { latitude: 39.1638, longitude: -119.7674 },
+              LasVegas: { latitude: 36.1699, longitude: -115.1398 },
+            },
+          },
+          NewHampshire: {
+            latitude: 43.1939,
+            longitude: -71.5724,
+            subDistricts: {
+              Concord: { latitude: 43.2081, longitude: -71.5376 },
+              Manchester: { latitude: 42.9956, longitude: -71.4548 },
+            },
+          },
+          NewJersey: {
+            latitude: 40.0583,
+            longitude: -74.4057,
+            subDistricts: {
+              Trenton: { latitude: 40.2206, longitude: -74.7597 },
+              Newark: { latitude: 40.7357, longitude: -74.1724 },
+            },
+          },
+          NewMexico: {
+            latitude: 34.5199,
+            longitude: -105.8701,
+            subDistricts: {
+              SantaFe: { latitude: 35.687, longitude: -105.9378 },
+              Albuquerque: { latitude: 35.0844, longitude: -106.6504 },
+            },
+          },
+          NewYork: {
+            latitude: 43.2994,
+            longitude: -74.2179,
+            subDistricts: {
+              Albany: { latitude: 42.6526, longitude: -73.7562 },
+              NewYorkCity: { latitude: 40.7128, longitude: -74.006 },
+              Buffalo: { latitude: 42.8864, longitude: -78.8784 },
+            },
+          },
+          NorthCarolina: {
+            latitude: 35.7596,
+            longitude: -79.0193,
+            subDistricts: {
+              Raleigh: { latitude: 35.7796, longitude: -78.6382 },
+              Charlotte: { latitude: 35.2271, longitude: -80.8431 },
+            },
+          },
+          NorthDakota: {
+            latitude: 47.5515,
+            longitude: -101.002,
+            subDistricts: {
+              Bismarck: { latitude: 46.8083, longitude: -100.7837 },
+              Fargo: { latitude: 46.8772, longitude: -96.7898 },
+            },
+          },
+          Ohio: {
+            latitude: 40.4173,
+            longitude: -82.9071,
+            subDistricts: {
+              Columbus: { latitude: 39.9612, longitude: -82.9988 },
+              Cleveland: { latitude: 41.4993, longitude: -81.6944 },
+            },
+          },
+          Oklahoma: {
+            latitude: 35.0078,
+            longitude: -97.0929,
+            subDistricts: {
+              OklahomaCity: { latitude: 35.4676, longitude: -97.5164 },
+              Tulsa: { latitude: 36.154, longitude: -95.9928 },
+            },
+          },
+          Oregon: {
+            latitude: 44.572,
+            longitude: -122.0709,
+            subDistricts: {
+              Salem: { latitude: 44.9429, longitude: -123.0351 },
+              Portland: { latitude: 45.5155, longitude: -122.6789 },
+            },
+          },
+          Pennsylvania: {
+            latitude: 40.5908,
+            longitude: -77.2098,
+            subDistricts: {
+              Harrisburg: { latitude: 40.2732, longitude: -76.8867 },
+              Philadelphia: { latitude: 39.9526, longitude: -75.1652 },
+            },
+          },
+          RhodeIsland: {
+            latitude: 41.6809,
+            longitude: -71.5118,
+            subDistricts: {
+              Providence: { latitude: 41.824, longitude: -71.4128 },
+              Newport: { latitude: 41.4901, longitude: -71.3128 },
+            },
+          },
+          SouthCarolina: {
+            latitude: 33.8361,
+            longitude: -81.1637,
+            subDistricts: {
+              Columbia: { latitude: 34.0007, longitude: -81.0348 },
+              Charleston: { latitude: 32.7765, longitude: -79.9311 },
+            },
+          },
+          SouthDakota: {
+            latitude: 43.9695,
+            longitude: -99.9018,
+            subDistricts: {
+              Pierre: { latitude: 44.3683, longitude: -100.3509 },
+              SiouxFalls: { latitude: 43.5446, longitude: -96.7311 },
+            },
+          },
+          Tennessee: {
+            latitude: 35.7478,
+            longitude: -86.6923,
+            subDistricts: {
+              Nashville: { latitude: 36.1627, longitude: -86.7816 },
+              Memphis: { latitude: 35.1495, longitude: -90.049 },
+            },
+          },
+          Texas: {
+            latitude: 31.9686,
+            longitude: -99.9018,
+            subDistricts: {
+              Austin: { latitude: 30.2672, longitude: -97.7431 },
+              Houston: { latitude: 29.7604, longitude: -95.3698 },
+              Dallas: { latitude: 32.7767, longitude: -96.797 },
+            },
+          },
+          Utah: {
+            latitude: 39.321,
+            longitude: -111.0937,
+            subDistricts: {
+              SaltLakeCity: { latitude: 40.7608, longitude: -111.891 },
+              WestValleyCity: { latitude: 40.6916, longitude: -112.0011 },
+            },
+          },
+          Vermont: {
+            latitude: 44.5588,
+            longitude: -72.5778,
+            subDistricts: {
+              Montpelier: { latitude: 44.2601, longitude: -72.5754 },
+              Burlington: { latitude: 44.4759, longitude: -73.2121 },
+            },
+          },
+          Virginia: {
+            latitude: 37.4316,
+            longitude: -78.6569,
+            subDistricts: {
+              Richmond: { latitude: 37.5407, longitude: -77.436 },
+              VirginiaBeach: { latitude: 36.8529, longitude: -75.978 },
+            },
+          },
+          Washington: {
+            latitude: 47.7511,
+            longitude: -120.7401,
+            subDistricts: {
+              Olympia: { latitude: 47.0379, longitude: -122.9007 },
+              Seattle: { latitude: 47.6062, longitude: -122.3321 },
+            },
+          },
+          WestVirginia: {
+            latitude: 38.5976,
+            longitude: -80.4549,
+            subDistricts: {
+              Charleston: { latitude: 38.3498, longitude: -81.6326 },
+              Huntington: { latitude: 38.4192, longitude: -82.4452 },
+            },
+          },
+          Wisconsin: {
+            latitude: 44.2849,
+            longitude: -89.6385,
+            subDistricts: {
+              Madison: { latitude: 43.0731, longitude: -89.4012 },
+              Milwaukee: { latitude: 43.0389, longitude: -87.9065 },
+            },
+          },
+          Wyoming: {
+            latitude: 42.7475,
+            longitude: -107.2085,
+            subDistricts: {
+              Cheyenne: { latitude: 41.14, longitude: -104.8202 },
+              Casper: { latitude: 42.8666, longitude: -106.3131 },
+            },
+          },
+        },
+      },
 
 
 
-      
 }
