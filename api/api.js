@@ -2984,6 +2984,68 @@ const coordinates={
           },
         },
       },
-
+      Iceland: {
+        latitude: 64.9631,
+        longitude: -19.0208,
+        subDistricts: {
+          CapitalRegion: {
+            latitude: 64.1355,
+            longitude: -21.8954,
+            subDistricts: {
+              Reykjavik: { latitude: 64.1355, longitude: -21.8954 },
+              Kópavogur: { latitude: 64.083, longitude: -21.966 },
+              Hafnarfjörður: { latitude: 64.066, longitude: -21.966 },
+            },
+          },
+          SouthernPeninsula: {
+            latitude: 63.8,
+            longitude: -20.0,
+            subDistricts: {
+              Selfoss: { latitude: 63.9333, longitude: -20.999 },
+              Reykjanesbær: { latitude: 63.999, longitude: -22.6 },
+            },
+          },
+          WestIceland: {
+            latitude: 64.5,
+            longitude: -21.0,
+            subDistricts: {
+              Borgarnes: { latitude: 64.538, longitude: -21.92 },
+              Akranes: { latitude: 64.325, longitude: -22.1 },
+            },
+          },
+          Westfjords: {
+            latitude: 65.0,
+            longitude: -23.0,
+            subDistricts: {
+              Ísafjörður: { latitude: 66.075, longitude: -23.135 },
+              Bolungarvík: { latitude: 66.1667, longitude: -23.2 },
+            },
+          },
+          NorthIceland: {
+            latitude: 65.0,
+            longitude: -18.0,
+            subDistricts: {
+              Akureyri: { latitude: 65.6885, longitude: -18.11 },
+              Húsavík: { latitude: 65.952, longitude: -17.341 },
+            },
+          },
+          EastIceland: {
+            latitude: 65.0,
+            longitude: -14.0,
+            subDistricts: {
+              Egilsstaðir: { latitude: 65.265, longitude: -14.4 },
+              Seyðisfjörður: { latitude: 65.262, longitude: -14.0 },
+            },
+          },
+          SouthIceland: {
+            latitude: 63.5,
+            longitude: -19.0,
+            subDistricts: {
+              Vik: { latitude: 63.4189, longitude: -19.006 },
+              Selfoss: { latitude: 63.9333, longitude: -20.999 },
+            },
+          },
+        },
+      },
 
 }
