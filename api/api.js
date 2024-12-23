@@ -3047,5 +3047,31 @@ const coordinates={
           },
         },
       },
-
+      Russia: {
+        latitude: 61.524,
+        longitude: 105.3188,
+        subDistricts: {
+          Moscow: {
+            latitude: 55.7558,
+            longitude: 37.6173,
+            subDistricts: {
+              Moscow: { latitude: 55.7558, longitude: 37.6173 },
+            },
+          },
+          SaintPetersburg: {
+            latitude: 59.9343,
+            longitude: 30.3351,
+            subDistricts: {
+              SaintPetersburg: { latitude: 59.9343, longitude: 30.3351 },
+            },
+          },
+          Novosibirsk: {
+            latitude: 55.0084,
+            longitude: 82.0155,
+            subDistricts: {
+              Novosibirsk: { latitude: 55.0084, longitude: 82.0155 },
+            },
+          },
+        },
+      },
 }
