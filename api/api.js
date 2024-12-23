@@ -6914,3 +6914,8 @@ function calculateDistance(lat1, lon1, lat2, lon2) {
   const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
   return R * c;
 }
+
+//function to make the search more flexible
+function normalizePlaceName(placeName) {
+  return placeName.toLowerCase().replace(/[^a-z0-9]/g, "");
+}
