@@ -1578,5 +1578,195 @@ const coordinates={
           },
         },
       },
-
+      Spain: {
+        latitude: 40.4637,
+        longitude: -3.7492,
+        subDistricts: {
+          Andalusia: {
+            latitude: 37.5442,
+            longitude: -4.7277,
+            subDistricts: {
+              Seville: { latitude: 37.3891, longitude: -5.9845 },
+              Malaga: { latitude: 36.7213, longitude: -4.4213 },
+              Granada: { latitude: 37.1773, longitude: -3.5986 },
+              Cordoba: { latitude: 37.8882, longitude: -4.7794 },
+              Cadiz: { latitude: 36.527, longitude: -6.2885 },
+              Almeria: { latitude: 36.8381, longitude: -2.4597 },
+              Jaen: { latitude: 37.7796, longitude: -3.7849 },
+              Huelva: { latitude: 37.2571, longitude: -6.9495 },
+            },
+          },
+          Aragon: {
+            latitude: 41.5976,
+            longitude: -0.9057,
+            subDistricts: {
+              Zaragoza: { latitude: 41.6488, longitude: -0.8891 },
+              Huesca: { latitude: 42.1362, longitude: -0.4087 },
+              Teruel: { latitude: 40.3456, longitude: -1.1065 },
+            },
+          },
+          Asturias: {
+            latitude: 43.3614,
+            longitude: -5.8593,
+            subDistricts: {
+              Oviedo: { latitude: 43.3603, longitude: -5.8448 },
+              Gijon: { latitude: 43.5322, longitude: -5.6611 },
+              Aviles: { latitude: 43.5547, longitude: -5.9248 },
+            },
+          },
+          BalearicIslands: {
+            latitude: 39.6104,
+            longitude: 2.9527,
+            subDistricts: {
+              PalmaDeMallorca: { latitude: 39.5696, longitude: 2.6502 },
+              Ibiza: { latitude: 38.9067, longitude: 1.4206 },
+              Menorca: { latitude: 39.9495, longitude: 4.1004 },
+            },
+          },
+          BasqueCountry: {
+            latitude: 42.9896,
+            longitude: -2.6189,
+            subDistricts: {
+              Bilbao: { latitude: 43.263, longitude: -2.935 },
+              SanSebastian: { latitude: 43.3183, longitude: -1.9812 },
+              Vitoria: { latitude: 42.8462, longitude: -2.6722 },
+            },
+          },
+          CanaryIslands: {
+            latitude: 28.2916,
+            longitude: -16.6291,
+            subDistricts: {
+              LasPalmas: { latitude: 28.1235, longitude: -15.4366 },
+              SantaCruzDeTenerife: { latitude: 28.4636, longitude: -16.2518 },
+              Fuerteventura: { latitude: 28.3587, longitude: -14.053 },
+              Lanzarote: { latitude: 29.0469, longitude: -13.5891 },
+            },
+          },
+          Cantabria: {
+            latitude: 43.1828,
+            longitude: -3.9878,
+            subDistricts: {
+              Santander: { latitude: 43.4623, longitude: -3.8099 },
+              Torrelavega: { latitude: 43.3497, longitude: -4.0488 },
+            },
+          },
+          CastileLaMancha: {
+            latitude: 39.8628,
+            longitude: -3.9503,
+            subDistricts: {
+              Toledo: { latitude: 39.8628, longitude: -4.0273 },
+              Albacete: { latitude: 38.9942, longitude: -1.8564 },
+              CiudadReal: { latitude: 38.9848, longitude: -3.9274 },
+              Cuenca: { latitude: 40.0703, longitude: -2.1374 },
+              Guadalajara: { latitude: 40.6324, longitude: -3.1666 },
+            },
+          },
+          CastileAndLeon: {
+            latitude: 41.8357,
+            longitude: -4.3976,
+            subDistricts: {
+              Valladolid: { latitude: 41.6523, longitude: -4.7245 },
+              Burgos: { latitude: 42.3439, longitude: -3.6969 },
+              Salamanca: { latitude: 40.9701, longitude: -5.6635 },
+              Leon: { latitude: 42.5987, longitude: -5.5671 },
+              Zamora: { latitude: 41.5036, longitude: -5.7457 },
+              Palencia: { latitude: 42.0096, longitude: -4.5288 },
+              Avila: { latitude: 40.6567, longitude: -4.6998 },
+              Segovia: { latitude: 40.9429, longitude: -4.1088 },
+              Soria: { latitude: 41.7636, longitude: -2.4649 },
+            },
+          },
+          Catalonia: {
+            latitude: 41.5912,
+            longitude: 1.5209,
+            subDistricts: {
+              Barcelona: { latitude: 41.3851, longitude: 2.1734 },
+              Girona: { latitude: 41.9794, longitude: 2.8214 },
+              Lleida: { latitude: 41.6176, longitude: 0.62 },
+              Tarragona: { latitude: 41.1189, longitude: 1.2445 },
+            },
+          },
+          Extremadura: {
+            latitude: 39.1667,
+            longitude: -6.1667,
+            subDistricts: {
+              Merida: { latitude: 38.9156, longitude: -6.3422 },
+              Badajoz: { latitude: 38.8794, longitude: -6.9706 },
+              Caceres: { latitude: 39.4753, longitude: -6.3724 },
+            },
+          },
+          Galicia: {
+            latitude: 42.5751,
+            longitude: -8.1339,
+            subDistricts: {
+              Santiago: { latitude: 42.8782, longitude: -8.5448 },
+              ACoruna: { latitude: 43.3713, longitude: -8.3959 },
+              Vigo: { latitude: 42.2406, longitude: -8.7207 },
+              Ourense: { latitude: 42.3364, longitude: -7.8638 },
+              Lugo: { latitude: 43.0097, longitude: -7.5567 },
+              Pontevedra: { latitude: 42.4314, longitude: -8.6444 },
+            },
+          },
+          LaRioja: {
+            latitude: 42.2871,
+            longitude: -2.5396,
+            subDistricts: {
+              Logrono: { latitude: 42.4663, longitude: -2.4469 },
+              Calahorra: { latitude: 42.3044, longitude: -1.9634 },
+            },
+          },
+          Madrid: {
+            latitude: 40.4168,
+            longitude: -3.7038,
+            subDistricts: {
+              MadridCity: { latitude: 40.4168, longitude: -3.7038 },
+              Mostoles: { latitude: 40.3227, longitude: -3.8658 },
+              Alcala: { latitude: 40.4819, longitude: -3.3636 },
+              Fuenlabrada: { latitude: 40.2837, longitude: -3.7937 },
+            },
+          },
+          Murcia: {
+            latitude: 37.9922,
+            longitude: -1.1307,
+            subDistricts: {
+              MurciaCity: { latitude: 37.9922, longitude: -1.1307 },
+              Cartagena: { latitude: 37.6257, longitude: -0.9967 },
+              Lorca: { latitude: 37.6712, longitude: -1.6998 },
+            },
+          },
+          Navarre: {
+            latitude: 42.6954,
+            longitude: -1.6761,
+            subDistricts: {
+              Pamplona: { latitude: 42.8125, longitude: -1.6458 },
+              Tudela: { latitude: 42.0642, longitude: -1.6063 },
+            },
+          },
+          ValencianCommunity: {
+            latitude: 39.4697,
+            longitude: -0.3774,
+            subDistricts: {
+              Valencia: { latitude: 39.4697, longitude: -0.3774 },
+              Alicante: { latitude: 38.3452, longitude: -0.4815 },
+              Castellon: { latitude: 39.9864, longitude: 0.0494 },
+              Elche: { latitude: 38.2655, longitude: -0.6987 },
+            },
+          },
+          // Autonomous Cities
+          Ceuta: {
+            latitude: 35.8894,
+            longitude: -5.3213,
+            subDistricts: {
+              CeutaCity: { latitude: 35.8894, longitude: -5.3213 },
+            },
+          },
+          Melilla: {
+            latitude: 35.2923,
+            longitude: -2.9381,
+            subDistricts: {
+              MelillaCity: { latitude: 35.2923, longitude: -2.9381 },
+            },
+          },
+        },
+      },
 }
