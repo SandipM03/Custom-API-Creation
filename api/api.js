@@ -2673,4 +2673,57 @@ const coordinates={
         },
       },
 
+      Denmark: {
+        latitude: 56.2639,
+        longitude: 9.5018,
+        subDistricts: {
+          CapitalRegion: {
+            latitude: 55.6761,
+            longitude: 12.5683,
+            subDistricts: {
+              Copenhagen: { latitude: 55.6761, longitude: 12.5683 },
+              Frederiksberg: { latitude: 55.6759, longitude: 12.5086 },
+              Ballerup: { latitude: 55.74, longitude: 12.36 },
+            },
+          },
+          Zealand: {
+            latitude: 55.4,
+            longitude: 11.5,
+            subDistricts: {
+              Roskilde: { latitude: 55.64, longitude: 12.08 },
+              Næstved: { latitude: 55.23, longitude: 11.8 },
+              Holbæk: { latitude: 55.719, longitude: 11.715 },
+            },
+          },
+          SouthernDenmark: {
+            latitude: 55.0,
+            longitude: 9.0,
+            subDistricts: {
+              Odense: { latitude: 55.4038, longitude: 10.4024 },
+              Kolding: { latitude: 55.491, longitude: 9.474 },
+              Esbjerg: { latitude: 55.48, longitude: 8.458 },
+            },
+          },
+          CentralDenmark: {
+            latitude: 56.0,
+            longitude: 9.0,
+            subDistricts: {
+              Aarhus: { latitude: 56.1625, longitude: 10.2039 },
+              Viborg: { latitude: 56.45, longitude: 9.4 },
+              Randers: { latitude: 56.462, longitude: 10.034 },
+            },
+          },
+          NorthDenmark: {
+            latitude: 57.0,
+            longitude: 9.0,
+            subDistricts: {
+              Aalborg: { latitude: 57.0489, longitude: 9.9217 },
+              Hjørring: { latitude: 57.455, longitude: 9.98 },
+              Thisted: { latitude: 56.961, longitude: 8.694 },
+            },
+          },
+        },
+      },
+
+
 }
