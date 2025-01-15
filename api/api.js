@@ -6915,7 +6915,124 @@ function calculateDistance(lat1, lon1, lat2, lon2) {
   return R * c;
 }
 
-//function to make the search more flexible
+//function to make the search more correctly
 function normalizePlaceName(placeName) {
   return placeName.toLowerCase().replace(/[^a-z0-9]/g, "");
 }
+
+
+
+//API endpoint to retrieve state information based on latitude and longitude.
+app.get("/find-state", (req, res) => {
+  const lat = parseFloat(req.query.lat);
+  const long = parseFloat(req.query.long);
+
+  if (isNaN(lat) || isNaN(long)) {
+    return res.status(400).json({
+      error: "Please provide valid numeric values for latitude and longitude.",
+    });
+  }
+
+  let foundState = null;
+  let foundDistrict = null;
+  let foundCountry = null;
+  let foundRegion = null;
+  let minDistance = Infinity;
+  let closestLocation = null;
+
+  // Loop through the countries and states to find the closest match
+  for (const [country, coordinates] of Object.entries(Coordinates)) {
+    const distance = calculateDistance(
+      lat,
+      long,
+      coordinates.latitude,
+      coordinates.longitude
+    );
+
+    if (distance < minDistance) {
+      minDistance = distance;
+      foundCountry = country.replace(/_/g, " ");
+      closestLocation = {
+        type: "country",
+        name: foundCountry,
+        distance: distance,
+      };
+    }
+
+    // Check for states (sub-districts)
+    if (coordinates.subDistricts) {
+      for (const [state, stateData] of Object.entries(
+        coordinates.subDistricts
+      )) {
+        const stateDistance = calculateDistance(
+          lat,
+          long,
+          stateData.latitude,
+          stateData.longitude
+        );
+
+        if (stateDistance < minDistance) {
+          minDistance = stateDistance;
+          foundRegion = state.replace(/_/g, " ");
+          foundDistrict = null;
+          foundCountry = country.replace(/_/g, " ");
+          closestLocation = {
+            type: "state",
+            name: foundRegion,
+          };
+        }
+
+        // Check nested districts (cities)
+        if (stateData.subDistricts) {
+          for (const [district, districtCoords] of Object.entries(
+            stateData.subDistricts
+          )) {
+            const districtDistance = calculateDistance(
+              lat,
+              long,
+              districtCoords.latitude,
+              districtCoords.longitude
+            );
+
+            if (districtDistance < minDistance) {
+              minDistance = districtDistance;
+              foundRegion = state.replace(/_/g, " ");
+              foundDistrict = district.replace(/_/g, " ");
+              foundCountry = country.replace(/_/g, " ");
+              closestLocation = {
+                type: "district",
+                name: foundDistrict,
+                distance: districtDistance,
+              };
+            }
+          }
+        }
+      }
+    }
+  }
+
+  // Format the output based on the closest location found
+  if (closestLocation) {
+    if (minDistance <= 25) {
+      // Only show results within 25km
+      let locationString = "";
+      if (foundDistrict) {
+        locationString = `${foundDistrict}, ${foundRegion}, ${foundCountry}`;
+      } else if (foundRegion) {
+        locationString = `${foundRegion}, ${foundCountry}`;
+      } else {
+        locationString = foundCountry; // Only country if no state or district found
+      }
+      return res.json({
+        location: locationString,
+        distance: minDistance.toFixed(2),
+      });
+    } else {
+      return res.json({
+        message: "No precise location found within 25km radius",
+      });
+    }
+  } else {
+    return res.json({ message: "Location not found in our database" });
+  }
+});
