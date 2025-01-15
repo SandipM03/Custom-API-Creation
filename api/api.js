@@ -6922,7 +6922,7 @@ function normalizePlaceName(placeName) {
 
 
 
-//API endpoint to retrieve state information based on latitude and longitude.
+//API endpoint to get state from latitude and longitude.
 app.get("/find-state", (req, res) => {
   const lat = parseFloat(req.query.lat);
   const long = parseFloat(req.query.long);
